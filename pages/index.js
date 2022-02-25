@@ -8,7 +8,7 @@ import desktopSep from "../assets/images/pattern-divider-desktop.svg"
 
 export default function Home() {
   const [changer, setChange] = useState(false)
-  const [advice, setAdvice] = useState({})
+  const [advice, setAdvice] = useState({"slip": { "id": "", "advice": ""}})
   const refAdvice = useRef()
 
 
