@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+  --LightCyan: hsl(193, 38%, 86%);
+  --NeonGreen: hsl(150, 100%, 66%);
+  --GrayishBlue: hsl(217, 19%, 38%);
+  --DarkGrayishBlue: hsl(217, 19%, 24%)
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--DarkGrayishBlue);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+.change{
+  opacity: 0 !important; 
+}
